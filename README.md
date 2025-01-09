@@ -19,8 +19,14 @@ source .venv/bin/activate
 python -m pip install nbformat ipykernel pandas seaborn
 ```
 
-Crear carpetas de trabajo:
+Crear carpetas de trabajo
 ```bash
 mkdir notebooks src app docs
 mkdir -p data/{raw,baking,final}
 ```
+
+- Editar un archivo (NO es parte los pasos para configurar el entorno)
+```bash
+ touch mitexto.txt
+ nano mitexto.txt
+ ```
