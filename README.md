@@ -10,7 +10,7 @@ echo -e ".venv\n.env" > .gitignore
 
 - Crear el entorno virtual y activarlo:
 ```bash
-python -m  venv .env
+python -m  venv .venv
 source .venv/bin/activate
 ```
 
